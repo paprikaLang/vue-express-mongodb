@@ -1,0 +1,42 @@
+dependencies:
+  axios: 0.18.0
+packages:
+  /axios/0.18.0:
+    dependencies:
+      follow-redirects: 1.5.9
+      is-buffer: 1.1.6
+    dev: false
+    resolution:
+      integrity: sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
+      tarball: 'http://registry.npm.taobao.org/axios/download/axios-0.18.0.tgz'
+  /debug/3.1.0:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+      tarball: 'http://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz'
+  /follow-redirects/1.5.9:
+    dependencies:
+      debug: 3.1.0
+    dev: false
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha1-ye2ddIuBSjlTVxblMbkZaoRdicY=
+      tarball: 'http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.5.9.tgz'
+  /is-buffer/1.1.6:
+    dev: false
+    resolution:
+      integrity: sha1-76ouqdqg16suoTqXsritUf776L4=
+      tarball: 'http://registry.npm.taobao.org/is-buffer/download/is-buffer-1.1.6.tgz'
+  /ms/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+      tarball: 'http://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz'
+registry: 'https://registry.npm.taobao.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  axios: ^0.18.0
